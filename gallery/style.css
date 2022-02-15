@@ -147,6 +147,7 @@ body {
   margin: 0 auto;
   /* display: none; */
   border: 3px solid var(--orange);
+  border-radius: 5px;
   max-width: 840px;
   height: 500px;
   background-size: cover;
