@@ -118,7 +118,7 @@ body {
   padding-top: 20px;
   padding-bottom: 5px;
   margin: 0 auto;
-  margin-top: -400px;
+  margin-top: -500px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
@@ -148,7 +148,7 @@ body {
   /* display: none; */
   border: 3px solid var(--orange);
   max-width: 840px;
-  height: 400px;
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
