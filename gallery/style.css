@@ -135,8 +135,9 @@ body {
   transition: 0.5s;
 }
 
-.active {
+.picture:hover {
   filter: none;
+  transition: 1s;
 }
 
 .view {
