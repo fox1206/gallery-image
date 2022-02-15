@@ -35,10 +35,6 @@ function showData(data) {
     picture.style.backgroundImage = `url('${el.urls.regular}')`;
     gallery.append(picture);
 
-    picture.addEventListener('mouseover', () => {
-      picture.classList.toggle('active');
-    });
-
     picture.addEventListener('click', () => {
         main.addEventListener('click', () => {
           view.style.backgroundImage = `url('${el.urls.regular}')`;
