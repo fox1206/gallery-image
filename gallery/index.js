@@ -36,11 +36,12 @@ function showData(data) {
     gallery.append(picture);
 
     picture.addEventListener('click', () => {
-        main.addEventListener('click', () => {
           view.style.backgroundImage = `url('${el.urls.regular}')`;
-          view.classList.toggle('view_gal');
+          view.classList.add('view_gal');
+          closeImg.addEventListener('click', () => {
+            view.classList.remove('view_gal');
+          });
       });
-    });
   });
 }
 
