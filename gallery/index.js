@@ -45,6 +45,15 @@ function showData(data) {
   });
 }
 
+function enterClick() {
+  searchWord.addEventListener('keydown', function(e) {
+    if(e.keyCode === 13) {
+      inputClick();
+    }
+  });
+}
+enterClick();
+
 //события
 getData();
 button.addEventListener('click', inputClick);
